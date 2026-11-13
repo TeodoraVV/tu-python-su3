@@ -12,7 +12,7 @@ class Book:
 
 class EBook(Book):
     def __init__(self, title, author, year, format, size):
-        super().__init__(title, author, year)   # полетата на Book
+        super().__init__(title, author, year)   
         self.format = format
         self.size = size
 
