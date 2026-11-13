@@ -1,4 +1,4 @@
-# Задача 5: клас Manager, наследник на Employee
+
 
 class Employee:
     def __init__(self, name, position, salary):
@@ -20,7 +20,7 @@ class Manager(Employee):
         print(f"  Отдел: {self.department}")
 
 
-# Създаване на обекти и извикване на метода
+
 managers = [
     Manager("Светла Ангелова", "мениджър", 5000, "Маркетинг"),
     Manager("Христо Попов", "ръководител", 5500, "ИТ"),
