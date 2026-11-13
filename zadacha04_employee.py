@@ -1,4 +1,4 @@
-# Задача 4: клас Employee
+
 
 class Employee:
     def __init__(self, name, position, salary):
@@ -10,7 +10,7 @@ class Employee:
         print(f"Служител: {self.name}, длъжност: {self.position}, заплата: {self.salary} лв.")
 
 
-# Създаване на обекти и извикване на метода
+
 employees = [
     Employee("Николай Стоянов", "програмист", 3500),
     Employee("Анна Колева", "счетоводител", 2800),
