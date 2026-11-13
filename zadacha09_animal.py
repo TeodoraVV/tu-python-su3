@@ -1,4 +1,4 @@
-# Задача 9: клас Animal и наследници Dog и Cat
+
 
 class Animal:
     def __init__(self, name, age):
@@ -10,16 +10,16 @@ class Animal:
 
 
 class Dog(Animal):
-    def sound(self):   # предефиниране на sound
+    def sound(self):   
         print(f"Кучето {self.name} ({self.age} г.) лае: Бау-бау!")
 
 
 class Cat(Animal):
-    def sound(self):   # предефиниране на sound
+    def sound(self):  
         print(f"Котката {self.name} ({self.age} г.) мяука: Мяу!")
 
 
-# Създаване на обекти и извикване на метода
+
 animals = [
     Dog("Рекс", 4),
     Cat("Мърка", 2),
