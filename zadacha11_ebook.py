@@ -1,4 +1,4 @@
-# Задача 11: клас EBook, наследник на Book
+
 
 class Book:
     def __init__(self, title, author, year):
@@ -16,12 +16,12 @@ class EBook(Book):
         self.format = format
         self.size = size
 
-    def print(self):   # предефиниране на print
+    def print(self):   
         super().print()
         print(f"  Формат: {self.format}, размер: {self.size} MB")
 
 
-# Създаване на обекти и извикване на метода
+
 ebooks = [
     EBook("Python за начинаещи", "Мартин Иванов", 2023, "PDF", 12.5),
     EBook("Изкуството на войната", "Сун Дзъ", 2015, "EPUB", 1.8),
