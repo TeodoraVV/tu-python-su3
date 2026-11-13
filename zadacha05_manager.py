@@ -12,10 +12,10 @@ class Employee:
 
 class Manager(Employee):
     def __init__(self, name, position, salary, department):
-        super().__init__(name, position, salary)   # полетата на Employee
+        super().__init__(name, position, salary)  
         self.department = department
 
-    def print(self):   # предефиниране на print
+    def print(self):  
         super().print()
         print(f"  Отдел: {self.department}")
 
