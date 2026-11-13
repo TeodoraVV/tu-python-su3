@@ -1,4 +1,4 @@
-# Задача 8: клас Motorcycle, наследник на Vehicle
+
 
 class Vehicle:
     def __init__(self, brand, model, year):
@@ -20,7 +20,7 @@ class Motorcycle(Vehicle):
               f"кубатура: {self.engine_capacity} куб. см")
 
 
-# Създаване на обекти и извикване на метода
+
 motorcycles = [
     Motorcycle("Yamaha", "MT-07", 2021, 689),
     Motorcycle("Honda", "CBR600RR", 2020, 599),
