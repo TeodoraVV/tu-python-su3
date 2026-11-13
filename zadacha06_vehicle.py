@@ -1,4 +1,4 @@
-# Задача 6: клас Vehicle
+
 
 class Vehicle:
     def __init__(self, brand, model, year):
@@ -10,7 +10,6 @@ class Vehicle:
         print(f"Превозно средство: {self.brand} {self.model}, година: {self.year}")
 
 
-# Създаване на обекти и извикване на метода
 vehicles = [
     Vehicle("Volvo", "FH16", 2020),
     Vehicle("Mercedes", "Sprinter", 2018),
