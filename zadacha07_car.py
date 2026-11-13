@@ -1,4 +1,4 @@
-# Задача 7: клас Car, наследник на Vehicle
+
 
 class Vehicle:
     def __init__(self, brand, model, year):
@@ -19,7 +19,7 @@ class Car(Vehicle):
         print(f"Автомобил: {self.brand} {self.model}, година: {self.year}, брой врати: {self.doors}")
 
 
-# Създаване на обекти и извикване на метода
+
 cars = [
     Car("Toyota", "Corolla", 2019, 4),
     Car("BMW", "M4", 2022, 2),
