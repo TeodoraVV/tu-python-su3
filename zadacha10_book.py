@@ -1,4 +1,4 @@
-# Задача 10: клас Book
+
 
 class Book:
     def __init__(self, title, author, year):
@@ -10,7 +10,6 @@ class Book:
         print(f"Книга: „{self.title}“, автор: {self.author}, година: {self.year}")
 
 
-# Създаване на обекти и извикване на метода
 books = [
     Book("Под игото", "Иван Вазов", 1894),
     Book("Тютюн", "Димитър Димов", 1951),
